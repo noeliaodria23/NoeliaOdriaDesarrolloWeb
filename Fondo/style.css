@@ -1,0 +1,36 @@
+body {
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animation {
+    from {background-color: red;}
+    to {background-color: violet;}
+}
+
+h1 {
+    animation-name: cambiofuente;
+    font-size: 14px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cambiofuente {
+    0% {font-size: 14px;}
+    100% {font-size: 100px;}
+}
+
+img {
+    width: 100px;
+    animation-name: corazon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes corazon {
+    to {width: 500px;}
+}
